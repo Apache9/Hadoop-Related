@@ -1,0 +1,13 @@
+Build using:
+    jdk1.7.0_65
+    maven2
+    protobuf 2.5.0
+    cmake 2.6-patch 4
+    gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-4)
+    snappy 1.1.2
+
+OS:
+    Linux 2.6.32-279.el6.x86_64 #1 SMP Fri Jun 22 12:19:21 UTC 2012 x86_64 x86_64 x86_64 GNU/Linux
+
+In hadoop-common-2.4.1, run:
+    mvn package -Pnative -DskipTests
